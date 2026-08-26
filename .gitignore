@@ -1,0 +1,17 @@
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+node_modules
+AGENTS.md
+sources/
+data/raw/
+data/extracted/
+data/processed/
+docs/official/
+*.inspect.ndjson
+outputs/**/preview_*.png
+outputs/**/inspection_summary.json

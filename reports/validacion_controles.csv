@@ -1,0 +1,36 @@
+﻿check_id,severity,description,expected,observed,status
+C001,critical,Número de filas del fichero adulto,21032,21032,PASS
+C002,critical,Número de columnas del fichero adulto,432,432,PASS
+C003,critical,Clave adulta única,True,True,PASS
+C004,critical,Clave de miembros del hogar única,True,True,PASS
+C005,critical,Coincidencias adulto-hogar,21032,21032,PASS
+C006,critical,La unión no expande ni reduce filas,21032,21032,PASS
+C007,critical,Dominio oficial de C1,"válidos=[1, 2, 3, 4, 5]; especiales=[]","[1, 2, 3, 4, 5]",PASS
+C008,critical,Dominio oficial de SEXOa,"válidos=[1, 2]; especiales=[]","[1, 2]",PASS
+C009,critical,Dominio oficial de CCAA,"válidos=[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]; especiales=[]","[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]",PASS
+C010,critical,Dominio oficial de A1a,"válidos=[1, 2]; especiales=[9]","[1, 2]",PASS
+C011,critical,Dominio oficial de NIVEST,"válidos=[1, 2, 3, 4, 5, 6, 7, 8, 9]; especiales=[99]","[2, 4, 5, 6, 7, 8, 9, 99]",PASS
+C012,critical,Dominio oficial de CLASE_PR,"válidos=[1, 2, 3, 4, 5, 6]; especiales=[9]","[1, 2, 3, 4, 5, 6, 9]",PASS
+C013,critical,Dominio oficial de A11,"válidos=[1, 2, 3, 4, 5, 6, 7]; especiales=[9]","[1, 2, 3, 4, 5, 6, 7]",PASS
+C014,critical,Dominio oficial de INGRESOS,"válidos=[1, 2, 3, 4, 5]; especiales=[99]","[1, 2, 3, 4, 5, 99]",PASS
+C015,critical,Dominio oficial de C2,"válidos=[1, 2]; especiales=[9]","[1, 2, 9]",PASS
+C016,critical,Dominio oficial de C3a,"válidos=[1, 2, 3]; especiales=[9]","[1, 2, 3, 9]",PASS
+C017,critical,Dominio oficial de IMC,"válidos=[1, 2, 3, 4]; especiales=[9]","[1, 2, 3, 4, 9]",PASS
+C018,critical,Dominio oficial de SEVERIDAD_DEPRESIVA,"válidos=[1, 2, 3, 4, 5]; especiales=[9]","[1, 2, 3, 4, 5, 9]",PASS
+C019,critical,Dominio oficial de CUADROS_DEPRESIVOS,"válidos=[1, 2, 3]; especiales=[9]","[1, 2, 3, 9]",PASS
+C020,critical,Dominio oficial de O1,"válidos=[1, 2, 3, 4, 5]; especiales=[9]","[1, 2, 3, 4, 5, 9]",PASS
+C021,critical,Dominio oficial de O2,"válidos=[1, 2, 3, 4]; especiales=[9]","[1, 2, 3, 4, 9]",PASS
+C022,critical,Dominio oficial de O7,"válidos=[0, 1, 2, 3, 4, 5, 6, 7]; especiales=[9]","[0, 1, 2, 3, 4, 5, 6, 7, 9]",PASS
+C023,critical,Dominio oficial de Q1,"válidos=[1, 2, 3, 4]; especiales=[9]","[1, 2, 3, 4, 9]",PASS
+C024,critical,Dominio oficial de R1,"válidos=[1, 2, 3, 4, 5, 6, 7, 8, 9]; especiales=[99]","[1, 2, 3, 4, 5, 6, 7, 8, 9, 99]",PASS
+C025,critical,Dominio oficial de S1,"válidos=[1, 2, 3, 4]; especiales=[9]","[1, 2, 3, 4, 9]",PASS
+C026,critical,Dominio oficial de S2,"válidos=[1, 2, 3, 4, 5]; especiales=[9]","[1, 2, 3, 4, 5, 9]",PASS
+C027,critical,Dominio oficial de S3,"válidos=[1, 2, 3, 4, 5]; especiales=[9]","[1, 2, 3, 4, 5, 9]",PASS
+C028,critical,Rango de edad,15–120 o 999,15–103,PASS
+C029,critical,Ponderación adulta positiva y completa,True,True,PASS
+C030,critical,Rango del índice de bienestar,0–100 o 999,0–100,PASS
+C031,critical,Rango de consumo medio diario,0–300 o 999,0.0–999.0,PASS
+C032,critical,Filas tras las derivaciones,21032,21032,PASS
+C033,critical,Resultado primario derivado completo,21032,21032,PASS
+C034,critical,Claves conservadas y únicas,True,True,PASS
+C035,critical,Estrato público completo y en dominio 0–6,True,True,PASS

@@ -1,0 +1,11 @@
+{
+  "bootstrap_requested": 1000,
+  "seed": 20230826,
+  "model_fits": 30,
+  "failed_point_fits": 0,
+  "bootstrap_valid_by_exposure": {
+    "clase_social": 1000,
+    "educacion": 1000,
+    "ingresos": 1000
+  }
+}

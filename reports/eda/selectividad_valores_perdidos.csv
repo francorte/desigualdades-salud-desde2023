@@ -1,0 +1,7 @@
+﻿exposicion,estado,n,porcentaje_muestra,porcentaje_ponderado,edad_media_ponderada,porcentaje_mujeres_ponderado,porcentaje_nacido_extranjero_ponderado,prevalencia_salud_menos_buena,prevalencia_problema_cronico
+educacion,observado,19500,0.927159,0.944446,48.031592,0.507269,0.180564,0.273730,0.562508
+educacion,ausente,1532,0.072841,0.055554,71.763765,0.622587,0.148052,0.580973,0.825034
+clase_social,observado,20226,0.961677,0.963128,49.337183,0.506286,0.179175,0.288682,0.576447
+clase_social,ausente,806,0.038323,0.036872,49.684852,0.706678,0.167845,0.346093,0.593059
+ingresos,observado,20030,0.952358,0.959932,49.459655,0.514043,0.172739,0.293176,0.579401
+ingresos,ausente,1002,0.047642,0.040068,46.723002,0.504866,0.322960,0.233850,0.521014

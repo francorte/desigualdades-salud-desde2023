@@ -1,0 +1,9 @@
+﻿indicador,n_validos,estimacion_ponderada
+salud_menos_que_buena,21032,0.290799
+problema_cronico,20780,0.577059
+limitacion_salud,20876,0.272989
+fumador_actual,20919,0.192724
+ocio_sedentario,20761,0.305441
+cuadro_depresivo_bin,20333,0.146150
+edad_media,21032,49.350002
+bienestar_medio,21032,73.346203

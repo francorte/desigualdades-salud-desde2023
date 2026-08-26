@@ -1,0 +1,27 @@
+{
+  "method_primary": "bootstrap estratificado por ESTRATO público, remuestreo individual dentro de estrato",
+  "method_sensitivity": "Kish-Wilson basado en tamaño muestral efectivo por pesos",
+  "replicates": 1000,
+  "seed": 20230826,
+  "public_strata": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "n_by_stratum": {
+    "0": 2534,
+    "1": 4696,
+    "2": 1588,
+    "3": 1860,
+    "4": 3299,
+    "5": 2193,
+    "6": 4862
+  },
+  "official_method": "jackknife delete-one census section within stratum",
+  "official_method_reproducible": false,
+  "reason": "el microdato público no incluye identificador de sección censal ni pesos replicados"
+}
