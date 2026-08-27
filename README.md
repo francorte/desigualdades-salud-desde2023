@@ -1,12 +1,18 @@
-# Desigualdades socioeconómicas y salud en España | Encuesta de Salud en España 2023
+# Desigualdades socioeconómicas y salud en España | Encuesta de Salud de España 2023
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francorte/desigualdades-salud-esde2023/blob/main/esde2023_desigualdades_salud.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francorte/desigualdades-salud-desde2023/blob/main/esde2023_desigualdades_salud.ipynb)
 [![Fuente oficial](https://img.shields.io/badge/Datos-Ministerio%20de%20Sanidad-blue)](https://www.sanidad.gob.es/estadEstudios/estadisticas/encuestaSaludEspana/)
 [![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](LICENSE)
 
 Análisis reproducible de las desigualdades socioeconómicas en salud autopercibida en España a partir de los microdatos de adultos de la Encuesta de Salud de España 2023 (ESdE 2023). El proyecto documenta la adquisición, limpieza y validación de los datos, aplica ponderaciones muestrales y estima asociaciones ajustadas mediante regresión y estandarización marginal.
 
 *Reproducible analysis of socioeconomic inequalities in self-rated health in Spain using the 2023 Spanish Health Survey.*
+
+## Artículo divulgativo
+
+### [Leer el artículo divulgativo: «Tu posición social también se refleja en tu salud»](article/articulo_divulgativo.md)
+
+Una versión accesible y visual de los principales resultados: qué muestran los datos sobre educación, clase social e ingresos, qué ocurre tras el ajuste estadístico y qué podemos —y qué no podemos— concluir sobre actividad física, apoyo social y desigualdad en salud.
 
 ## Resultado ejecutivo
 
@@ -21,7 +27,7 @@ La salud percibida presenta un gradiente social consistente. Tras ajustar por ed
 | Registros adultos | 21.032 |
 | Variables originales inspeccionadas | 432 |
 | Ajustes puntuales convergentes | 30 de 30 |
-| Réplicas bootstrap válidas | 3.000 de 3.000 |
+| Réplicas bootstrap válidas por exposición | 1.000 de 1.000 |
 
 ## Interpretación
 
@@ -71,6 +77,9 @@ Cada indicador socioeconómico se analiza por separado. El resultado principal e
 ```text
 .
 ├── esde2023_desigualdades_salud.ipynb
+├── article/
+│   ├── articulo_divulgativo.md
+│   └── figures/
 ├── data/
 │   └── README.md
 ├── config/
@@ -85,6 +94,7 @@ Cada indicador socioeconómico se analiza por separado. El resultado principal e
 
 ## Archivos principales
 
+- [Artículo divulgativo](article/articulo_divulgativo.md)
 - [Notebook completo](esde2023_desigualdades_salud.ipynb)
 - [Resumen ejecutivo](reports/executive_summary.md)
 - [Documentación de los datos](data/README.md)
@@ -97,8 +107,8 @@ Cada indicador socioeconómico se analiza por separado. El resultado principal e
 ## Reproducibilidad
 
 ```bash
-git clone https://github.com/francorte/desigualdades-salud-esde2023.git
-cd desigualdades-salud-esde2023
+git clone https://github.com/francorte/desigualdades-salud-desde2023.git
+cd desigualdades-salud-desde2023
 python -m venv .venv
 pip install -r requirements.txt
 jupyter notebook esde2023_desigualdades_salud.ipynb
