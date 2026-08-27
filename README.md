@@ -1,4 +1,4 @@
-# Desigualdades socioeconómicas y salud en España | Encuesta de Salud Pública en España 2023
+# Desigualdades socioeconómicas y salud en España | Encuesta de Salud en España 2023
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/francorte/desigualdades-salud-esde2023/blob/main/esde2023_desigualdades_salud.ipynb)
 [![Fuente oficial](https://img.shields.io/badge/Datos-Ministerio%20de%20Sanidad-blue)](https://www.sanidad.gob.es/estadEstudios/estadisticas/encuestaSaludEspana/)
